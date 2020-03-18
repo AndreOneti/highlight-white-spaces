@@ -2,8 +2,10 @@
   "compilerOptions": {
     "module": "commonjs",
     "target": "es5",
-    "outDir": "out",
-    "noLib": true,
+    "outDir": "dist",
+    "lib": [
+      "es6"
+    ],
     "sourceMap": true,
     "rootDir": "."
   },

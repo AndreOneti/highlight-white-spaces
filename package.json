@@ -23,7 +23,21 @@
     "*"
   ],
   "main": "./dist/src/extension",
-  "contributes": {},
+  "contributes": {
+    "configuration": [
+      {
+        "title": "Highlight White Spaces",
+        "properties": {
+          "highlight.color": {
+            "type": "string",
+            "default": "#ff00004d",
+            "description": "Color to render white spaces, reload window is required",
+            "scope": "resource"
+          }
+        }
+      }
+    ]
+  },
   "scripts": {
     "postinstall": "node ./node_modules/vscode/bin/install && tsc"
   },
