@@ -30,7 +30,7 @@ export function activate(context: vscode.ExtensionContext) {
   }, null, context.subscriptions);
 
   let spacesDecoration = vscode.window.createTextEditorDecorationType({
-    backgroundColor: vscode.workspace.getConfiguration().get('highlight.color')
+    backgroundColor: "#ff00004d"
   });
 
   function updateDecorations(activeTexEditor: vscode.TextEditor) {

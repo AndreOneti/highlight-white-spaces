@@ -1,7 +1,7 @@
 {
   "name": "highlight-whitespaces",
   "displayName": "Highlight White Spaces",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "To color white space by selected color.",
   "license": "MIT",
   "author": "AndreOneti",
