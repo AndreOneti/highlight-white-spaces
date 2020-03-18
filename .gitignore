@@ -108,4 +108,7 @@ dist/
 tmp/
 temp/
 
+# VSCode extension builded
+*.vsix
+
 # End of https://www.gitignore.io/api/node
